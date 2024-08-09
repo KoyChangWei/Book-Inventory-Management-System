@@ -1,0 +1,104 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: linear-gradient(to bottom right, #007bff, #73a9e3);
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ensure the container takes the full width */
+}
+
+.book {
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.alert {
+    margin-bottom: 20px;
+    background-color: rgba(138, 23, 23, 0.1);
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100%; /* Ensure the alert takes the full width */
+}
+
+.alert-success {
+    background-color: rgba(35, 151, 35, 0.3);
+}
+
+.alert-danger {
+    background-color: rgba(185, 35, 35, 0.3);
+}
+
+.form-control {
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    width: 100%; /* Ensure the input fields take the full width */
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 16px;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #fff;
+    width: 100%; /* Ensure the labels take the full width */
+}
+
+button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%; /* Ensure the buttons take the full width */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a.btn {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 100%; /* Ensure the link button takes the full width */
+}
+
+a.btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%; /* On smaller screens, make the container full width */
+    }
+}
